@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container { /* BG IMG or VID */
-    background: url('../images/luciabg.png') center center/cover no-repeat; 
+    /*background: url('../images/luciabg.png') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;

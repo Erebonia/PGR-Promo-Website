@@ -30,8 +30,10 @@ function Navbar() {
   <nav className ="navbar">
       <div className = "navbar-container">
           <Link to = "/" className = "navbar-logo" onClick={closeMobileMenu}>
-              ROEY OBESE
-              <img className='fab fa-typo3' src="https://cdn.discordapp.com/emojis/912336732308009000.webp?size=56&quality=lossless" alt="" />
+              <img className='fab fa-typo3' src="https://cdn.discordapp.com/emojis/884098838263103548.webp?size=56&quality=lossless" alt="" />
+              <p>満月</p> 
+              <p>Mangetsu</p>
+              
           </Link>
             <div className = 'menu-icon' onClick = {handleClick}>
               <i className={click ? 'fas fa-times': 'fas fa-bars'} />
