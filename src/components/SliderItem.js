@@ -8,6 +8,7 @@ const slider = useRef(null);
 useEffect(() => {
     const slider = document.querySelector('.Slider__container')//To access the div with class slide track
     slider.addEventListener('mousedown', (e) => {
+        e.preventDefault();
         isDown = true;
         slider.classList.add('active');
         startX = e.pageX - slider.offsetLeft;
@@ -38,7 +39,7 @@ let scrollLeft;
   return (
   <>
   <li className = "Slider__item" >    
-      <Link className= "Slider__item__link" to = {props.path}>
+      <Link className= "Slider__item__link" to = {props.path} >
       <figure style={{ '--data-color': props.color, }} className="Slider__item__pic-wrap" data-category={props.element}>
       <img src={props.src} alt={props.alt} className="Slider__item__img" />
         </figure>

@@ -23,23 +23,22 @@
   }
   
   .Slider__container {
-    /* display: flex; me */
-    flex-flow: column;
-    align-items: center;
-    max-width: 1120px;
+    position: relative;
     width: 100%;
-    margin: 0 auto;
-    overflow-x:auto;
-    user-select: none;
-    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: hidden;
     white-space: nowrap;
     transition: all 0.2s;
+    transform: scale(0.95);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
   }
 
   .Slider__container.active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
-    transform: scale(1);
+    transform: scale(0.7);
   }
   
   .Slider__wrapper {
@@ -72,7 +71,7 @@
   
   .Slider__item__pic-wrap {
     position: relative;
-    width: 200px;
+    width: 225px;
     padding-top: 200%; /* Messes with the img size too */
     overflow: hidden;
   }
@@ -109,6 +108,7 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.25s linear;
+    pointer-events: none;
   }
   
   .Slider__item__img:hover {
