@@ -29,11 +29,18 @@
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
-    overflow-x: auto;
+    overflow-x:hidden;
+    user-select: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s;
+    overflow-y: hidden;
   }
 
-  .Slider_container::-webkit-scrollbar {
-      width: 0;
+  .Slider__container.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
   }
   
   .Slider__wrapper {
@@ -48,7 +55,7 @@
   .Slider__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
+    margin: 0 4rem;
     border-radius: 10px;
   }
   

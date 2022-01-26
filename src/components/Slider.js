@@ -11,6 +11,7 @@ var bgColors = { "Default": "#81b71a",
 };
 
 function Slider() {
+
   return (
   <div className='Slider'>
       <h2> Pain Cage</h2>
@@ -20,7 +21,7 @@ function Slider() {
                     <SliderItem
                     src='/images/ppc/BossSingleTab3.png'
                     text = "Camu" 
-                    element ="Weakness: Dark"
+                    element ="Weakness: Kamui"
                     color = {bgColors.Green}
                     alt = ""
                     path = "/services"/>
@@ -28,7 +29,7 @@ function Slider() {
                     <SliderItem
                     src='/images/ppc/BossSingleTab5.png'
                     text = "Tifa" 
-                    element ="Weakness: Element"
+                    element ="Weakness: Dark"
                     color = {bgColors.Red}
                     alt = ""
                     path = "/services"/>
@@ -44,7 +45,7 @@ function Slider() {
                     <SliderItem
                     src='/images/ppc/BossSingleTab7.png'
                     text = "Roseblade" 
-                    element ="Weakness: IDK"
+                    element ="Weakness: Ice"
                     color = {bgColors.Green}
                     alt = ""
                     path = "/services"/>
@@ -60,7 +61,7 @@ function Slider() {
                     <SliderItem
                     src='/images/ppc/BossSingleTab10.png'
                     text = "Musashi" 
-                    element ="Weakness: IDK"
+                    element ="Weakness: Tank"
                     color= {bgColors.Blue}
                     alt = ""
                     path = "/services"/>
@@ -76,7 +77,7 @@ function Slider() {
                     <SliderItem
                     src='/images/ppc/BossSingleTab17.png'
                     text = "Rosetta" 
-                    element ="Weakness: IDK"
+                    element ="Weakness: Being Close"
                     color= {bgColors.Blue}
                     alt = ""
                     path = "/services"/>
@@ -94,6 +95,10 @@ function Slider() {
       </div>
   </div>
   );
+
+  
 }
+
+
 
 export default Slider;
