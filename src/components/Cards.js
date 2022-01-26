@@ -10,6 +10,13 @@ var bgColors = { "Default": "#81b71a",
                     "Yellow": "#F6BB42",
 };
 
+var tags = { "Guild": "Guild News",
+                    "Global": "Global News",
+                    "GuildEvent": "Guild Event",
+                    "Green": "#32CD32",
+                    "Red": "#E9573F",
+                    "Yellow": "#F6BB42",
+}
 function Cards() {
   return (
   <div className='cards'>
@@ -20,7 +27,7 @@ function Cards() {
                     <CardItem
                     src='/images/pggroup2.jpg'
                     text = "Guild's are finally released! Which batch are you?" 
-                    label ="Guild News"
+                    label ={tags.Guild}
                     color = {bgColors.Green}
                     alt = "Time to join the guild in game :D"
                     path = "/services"/>
@@ -28,7 +35,7 @@ function Cards() {
                     <CardItem
                     src='/images/livheart.jpg'
                     text = "February Guild Event" 
-                    label ="Guild Event"
+                    label ={tags.GuildEvent}
                     color = {bgColors.Red}
                     alt = "An official mangetsu event!"
                     path = "/services"/>
@@ -36,7 +43,7 @@ function Cards() {
                     <CardItem
                     src='/images/chromesleek.jpg'
                     text = "Welcome to the Liberation Front!" 
-                    label ="Global News"
+                    label ={tags.Global}
                     color= {bgColors.Blue}
                     alt = "Welcome to the Liberation Front!"
                     path = "/services"/>

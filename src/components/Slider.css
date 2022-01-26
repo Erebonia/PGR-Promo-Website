@@ -21,6 +21,20 @@
     color: #fff;
     font-size: 4em;
   }
+
+  h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: yellow;
+    font-size: 1.5em;
+  }
+
+  h4 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 1.3em;
+  }
   
   .Slider__container {
     position: relative;
@@ -123,8 +137,9 @@
   .Slider__item__text {
     color: #fff;
     /*color: #252e48;*/
-    font-size: 18px;
+    font-size: 30px;
     line-height: 24px;
+    text-align: center;
   }
   
   @media only screen and (min-width: 1200px) {
