@@ -1,9 +1,6 @@
-import {Link} from 'react-router-dom';
-import React, { useRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 function SliderItem(props) {
-
-const slider = useRef(null);
 
 useEffect(() => {
     const slider = document.querySelector('.Slider__container')//To access the div with class slide track

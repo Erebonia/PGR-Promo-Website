@@ -5,7 +5,7 @@ import React from 'react';
 import '../../App.css';
 import Slider from '../Slider';
 
-export default function Products() {
+export default function PainCage() {
     return (
     <>
     <Slider />

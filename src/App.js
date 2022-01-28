@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
 import Services from './components/pages/Services';
-import Products from './components/pages/Products';
+import PainCage from './components/pages/PainCage';
 import SignUp from './components/pages/SignUp';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Routes> 
           <Route path = '/' exact element = {<Home/>}/>
           <Route path = '/services' exact element = {<Services/>}/>
-          <Route path = '/products' exact element = {<Products/>}/>
+          <Route path = '/ppc' exact element = {<PainCage/>}/>
           <Route path = '/sign-up' exact element = {<SignUp/>}/>
           </Routes>
       </Router>
