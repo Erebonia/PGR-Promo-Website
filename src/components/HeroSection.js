@@ -9,7 +9,9 @@ export default function HeroSection() {
       <h2>Punishing: Liberation Front</h2>
       <p>Mangetsu's Guild Headquarters and PGR Archive</p>
       <div className = "hero-btns">
+      <a href = "https://news.pgrliberationfront.com/">
         <Button className = 'btns' buttonStyle ='btn--outline' buttonSize = 'btn--large'> Latest News </Button>
+         </a>
         {/* <Button className = 'btns' buttonStyle ='btn--primary' buttonSize = 'btn--large'> Pain Cage<i className = 'far fa-play-circle'/> </Button> */}
       </div>
   </div>;
