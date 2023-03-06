@@ -2,12 +2,12 @@ import React from 'react';
 import {Button} from './Button';
 import './HeroSection.css';
 import '../App.css';
-import Video from '../videos/nona.mp4';
+import Video from '../videos/slayer.mp4';
 export default function HeroSection() {
   return <div className = 'hero-container'> 
       <video src = {Video} autoPlay loop muted /> 
-      <h2>Punishing: Liberation Front</h2>
-      <p>Mangetsu's Guild Headquarters and PGR Archive</p>
+      <h2>Slayer Legend Community Hub</h2>
+      <p>The best unofficial spot for information and resources.</p>
       <div className = "hero-btns">
       <a href = "https://news.pgrliberationfront.com/">
         <Button className = 'btns' buttonStyle ='btn--outline' buttonSize = 'btn--large'> Latest News </Button>

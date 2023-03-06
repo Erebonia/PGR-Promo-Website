@@ -20,73 +20,73 @@ function Slider() {
           <div className = "Slider_wrapper">
               <ul className= "Slider__items" >
                     <SliderItem
-                    src='/images/ppc/BossSingleTab3.png'
-                    text = "Camu" 
-                    element ="Weakness: Kamui"
+                    src='/images/ppc/cave.png'
+                    text = "Training" 
+                    element ="Loadout: Mixed"
                     color = {bgColors.Purple}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWqBn794CzoGS3phTwUVdCDc"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab5.png'
-                    text = "Tifa" 
-                    element ="Weakness: Dark"
+                    src='/images/ppc/dimboss.png'
+                    text = "Rift" 
+                    element ="Loadout: Boss Build"
                     color = {bgColors.Purple}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWrbD7AzAKhiON8v-BnzKOQg"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab16.png'
-                    text = "Alpha" 
-                    element ="Weakness: Rosetta"
+                    src='/images/ppc/dragon.png'
+                    text = "Dragon" 
+                    element ="Loadout: Boss Build"
                     color= {bgColors.Gray}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWrVqHRGMeZHzfDCjbbqJdvd"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab7.png'
-                    text = "Roseblade" 
-                    element ="Weakness: Ice"
+                    src='/images/ppc/forest.png'
+                    text = "Forest" 
+                    element ="Loadout: Speed Run"
                     color = {bgColors.Blue}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWrlJgqfPXU5ek4Q-EMGrFpV"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab9.png'
-                    text = "Nozzle" 
-                    element ="Weakness: Fire"
+                    src='/images/ppc/Mine.png'
+                    text = "Closed Mine" 
+                    element ="Loadout: Speed Run"
                     color = {bgColors.Red}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWqLS8GlnRkGUyqG4CXN604R"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab10.png'
-                    text = "Musashi" 
-                    element ="Weakness: Tank"
+                    src='/images/ppc/warrior.png'
+                    text = "Companions" 
+                    element ="Loadout: Custom"
                     color= {bgColors.Gray}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWptmgjes0ZUAXeCFT-HWm4y"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab14.png'
-                    text = "Roland" 
-                    element ="Weakness: Physical"
+                    src='/images/ppc/adventure.png'
+                    text = "Adventure" 
+                    element ="Loadout: Mixed"
                     color= {bgColors.Gray}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWqe20nkenJBadMhtjBdYRXX"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab17.png'
-                    text = "Rosetta" 
-                    element ="Weakness: Being Close"
+                    src='/images/ppc/stageboss.png'
+                    text = "Stage Bosses" 
+                    element ="Loadout: Boss Build"
                     color= {bgColors.Gray}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWqn6mjj8Urh8-KR0ixS5m5H"/>
 
                     <SliderItem
-                    src='/images/ppc/BossSingleTab18.png'
-                    text = "Huaxu" 
-                    element ="Weakness: Ice"
+                    src='/images/ppc/stagefarm.png'
+                    text = "Stage Farm" 
+                    element ="Loadout: Speedrun"
                     color= {bgColors.Blue}
                     alt = ""
                     path = "https://www.youtube.com/playlist?list=PL7JA1IrqCTWrTvnm1JBsGadA12E7RyWl7"/>
@@ -94,9 +94,8 @@ function Slider() {
               </ul>
           </div>
       </div>
-      <h3>Drag your mouse and click any banner to see a video strategy.</h3>
-      <h4>Strategy and Equipment Spreadsheet: <a href = "https://docs.google.com/spreadsheets/d/1_2Jg37FIxK7bqqaSYT9G2qirShdsC3G-ZdYQSeYIlmA/edit?usp=sharing">HERE</a></h4>
-      <h4>Special thanks to Esqpur for providing all the clips!</h4>
+      <h3>Drag your mouse and click any banner for more information and resources.</h3>
+      <h4>Special thanks to the Slayer Legend Community discord for providing all the information and resources.</h4>
   </div>
   );
 
